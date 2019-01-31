@@ -111,10 +111,8 @@ Les données utilisées dans cet exercice sont récupérées du générateur [**
 ### 5.2 - Authentification
 
  1. Créer un service `AuthService` dans un fichier `auth.service.ts` du répertoire `auth` avec :
-	 - une propriété `users` de type `User[]` ayant pour [valeur](https://jsonplaceholder.typicode.com/users/3).
-	 - une propriété `user` de type `User` 
-	 - une méthode `signin` comparant la valeur de ses arguments avec celles des utilisateurs, affichant un message d'erreur si l'utilisateur n'existe pas, le redirigeant vers la page des articles sinon après avoir initialisé la variable `user.`
-	 - une méthode `signout` réinitialisant la variable `user` et redirigeant l'utilisateur vers la page de connexion.
+	 - une méthode `signin` pour la connexion.
+	 - une méthode `signout` redirigeant l'utilisateur vers la page de connexion.
 	 
  2. Injecter le service dans les bons composants et remplacer les données correspondantes.
 
