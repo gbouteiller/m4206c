@@ -16,6 +16,7 @@ Le but de ce TD  est de réaliser une application Angular ayant le comportement 
  - [Documentation officielle Angular](https://angular.io/docs)
  - [Documentation officielle Angular Material](https://material.angular.io/)
  - [Documentation officielle Lodash](https://lodash.com/)
+ - [Documentation Rxjs](https://rxmarbles.com/)
 
 ## 1 - Conventions
 
