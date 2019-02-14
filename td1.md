@@ -1,4 +1,4 @@
-
+  
 # TD 1 : Application Angular
 
 Le but de ce TD  est de réaliser une application Angular ayant le comportement suivant :
@@ -132,10 +132,11 @@ Les données utilisées dans cet exercice sont récupérées du générateur [**
 
  4. Modifier la méthode `readMany` afin que celle-ci retourne un `Observable<ProductsResponse>` et effectue une requête get d'obtention des articles.
  5. Dans le handler de la Liste d'Articles, effectuer un `subscribe` sur le retour de la méthode `readMany` en passant en argument une fonction anonyme de traitement du résultat.
-	> rappel : une fonction anonyme possède la forme : (arg1: T1, arg2: T2, ... ): TRetour => { .... } 
+	> **rappel** : une fonction anonyme possède la forme : (arg1: T1, arg2: T2, ... ): TRetour => { .... } 
 	
- 7. Modifier la méthode `read` afin que celle-ci retourne un `Observable<ProductResponse>`.
- 8. Dans le handler de l'Article, effectuer un `subscribe` sur le retour de la méthode `read` en passant en argument une fonction anonyme de traitement du résultat.
+ 6. Modifier la méthode `read` afin que celle-ci retourne un `Observable<ProductResponse>`.
+ 7. Dans le handler de l'Article, effectuer un `subscribe` sur le retour de la méthode `read` en passant en argument une fonction anonyme de traitement du résultat.
+> **rappel :** Pour obtenir les informations passées en paramètres dans votre handler, injecter le service `ActivatedRoute` du fichier "@angular/router". Si vous avez appelé la propriété du handler pour ce service `route`, les paramètres sont accessibles via  : `this.route.snapshot.params.nomDuParamètre`. N'oubliez pas que le paramètre obtenu est un string même si sa valeur s'apparente à un nombre  ( '1' est différent de 1 ).
 
 ### 6.2 - AuthService
 
