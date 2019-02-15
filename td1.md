@@ -194,8 +194,6 @@ Nous passerons donc de la structure suivante :
 	 - **components**
 		 - app.authenticated.handler.ts/html/css
 		 - app.handler.ts/html/css
-		 - app.product.handler.ts/html/css
-		 - app.products.handler.ts/html/css
 		 - app.public.handler.ts/html/css
 	 - **modules**
 		 - app.material.module.ts
