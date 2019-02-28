@@ -1,0 +1,24 @@
+@import '~nativescript-theme-core/css/core.light.css';
+
+.action-bar {
+  background-color: #233367;
+  color: #ffffff;
+}
+
+.activity-indicator {
+  color: #233367;
+}
+
+.btn-accent {
+  background-color: #233367;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #36b9c2;
+  color: #ffffff;
+}
+
+.bg-light { 
+  background-color: #f9f9f9;
+}
